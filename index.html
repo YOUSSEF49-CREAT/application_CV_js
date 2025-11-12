@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>cv | your cv</title>
+</head>
+<body>
+    <header class="header flex flex-col bg-amber-200 h-1/4 gap-6 justify-around ">
+        <a href="" class="logo text-2xl ml-20"><span class="font-thin">your</span>cv</a>
+        <!-- <h2 class="title text-3xl m-auto">best cv for your </h2> -->
+        <div class="progres flex w-3/4 m-auto justify-between ">
+               <p class="m-5 p-5 bg-amber-400 rounded-2xl step now"><i class="fa-solid fa-user"></i></p>
+               <p class="m-5 p-5 bg-amber-400 rounded-2xl step "><i class="fa-solid fa-school"></i></p>
+               <p class="m-5 p-5 bg-amber-400 rounded-2xl step "><i class="fa-solid fa-briefcase"></i></p>
+               <p class="m-5 p-5 bg-amber-400 rounded-2xl step "><i class="fa-solid fa-file"></i></p>
+        </div>
+    </header>
+    <section class="khatwa marhala personelle w-3/4 mx-auto bg-amber-200 p-10 m-10 rounded-2xl ">
+                                  <!-- <h1 class="font-amber-900 text-2xl m-auto">partie personelle</h1> -->
+                                 <div class="personelle_body_head flex  ">
+                                                <div class="photo_pers m-10">
+                                                  
+                                                      <img src="/assets/img/user.webp" alt="" id="photo"> 
+                                                      <label for="iput-file" >ajouter image</label>
+                                                      <input type="file" id="iput-file">
+                                                </div>
+                                              <div class="fullname w-1/2 flex ">
+                                                    <div class="firstname flex justify-around">
+                                                         <label for="" class="w-1/2 m-auto ">prenom</label>
+                                                         <input type="text" id="first-name" class="bg-amber-100 w-1/1 h-2/8 flex items-center m-auto outline-none rounded-2xl p-4">
+                                                    </div>
+                                                    <div class="lastname flex justify-around">
+                                                          <label for="" class="w-1/2 mx-6 m-auto">nom</label>
+                                                          <input type="text" id="last-name" class="bg-amber-100 w-1/1 h-2/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                     </div> 
+                                              </div>
+                                              
+                                   </div>
+                                   <div class="personelle_body_sh flex flex-col">
+                                              <label for="">adress email</label>
+                                              <input type="text" id="email" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">telephone</label>
+                                              <input type="text" id="telephone" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">Adresse</label>
+                                              <input type="text" id="adresse" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">la ville</label>
+                                              <input type="text" id="ville" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">date naissance</label>
+                                              <input type="date" id="date_nais" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">lieu naissance</label>
+                                              <input type="text" id="lieu_nais" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                              <label for="">cni</label>
+                                              <input type="text" id="nationalite" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4"> 
+                                              <label for="">Permis de conduire</label>
+                                              <input type="text" id="Permis" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                   </div>
+
+    </section>
+    <section class="khatwa profitionelle w-3/4 mx-auto bg-amber-200 p-10 m-10 rounded-2xl ">
+                                 <div class="entrer__skl flex flex-col gap-6 ">
+                                                <label for="">deplome</label>
+                                                <input type="text" placeholder="entrer votre deplome/bac" id="inputskl1" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">ecole</label>
+                                                <input type="text" placeholder="entrer  ecole" id="inputskl2" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">anee</label>
+                                                <input type="date" placeholder="entrer  Anee" id="inputskl3" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">ville</label>
+                                                <input type="text" placeholder="entrer la ville de lecole" id="inputskl4" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <button id="skl" class="bg-amber-900 w-1/1 rounded-2xl gap-6 h-6/8 ">+</button>
+                                 </div>
+                                 
+                                <ul id="new__skl">
+
+                                </ul>
+                               
+
+    </section>
+    <section class="khatwa competonce w-3/4 mx-auto bg-amber-200 p-10 m-10 rounded-2xl ">
+                                <div class="entrer__work flex flex-col gap-6 ">
+                                                <label for="">nom de socite</label>
+                                                <input type="text" placeholder="entrer votre deplome/bac" id="inputwork1" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">ville de socite</label>
+                                                <input type="text" placeholder="entrer  ecole" id="inputwork2" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">anee de depart</label>
+                                                <input type="date" placeholder="entrer  Anee" id="inputwork3" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">anee de finale</label>
+                                                <input type="date" placeholder="entrer la ville de lecole" id="inputwork4" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">type de contrat</label>
+                                                <input type="text" placeholder="entrer votre deplome/bac" id="inputwork5" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <label for="">description</label>
+                                                <input type="text" placeholder="entrer votre deplome/bac" id="inputwork6" class="bg-amber-100 w-1/1 h-6/8  flex items-center m-auto outline-none rounded-2xl p-4">
+                                                <button id="workbtn" class="bg-amber-900 w-1/1 rounded-2xl gap-6 h-6/8 ">+</button>
+
+                                 </div>
+                                 
+                                <ul id="new__work">
+
+                                </ul>
+    </section>
+    <section class="khatwa  w-3/4 mx-auto  p-10 m-10 rounded-2xl " id="yourcv">
+        
+
+    </section>
+                     <div class="personel__bottom  ">
+                                <button class="prevbtn"  id="prevbtn" disabled>prev</button>
+                                <button  class="nextbtn" id="nextbtn">next</button>
+                     </div>
+     <script src="/assets/main.js"></script>
+</body>
+</html>

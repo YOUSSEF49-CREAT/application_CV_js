@@ -1,0 +1,144 @@
+li{
+    background-color: #645414;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.personel__bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px;
+    margin: 20px;
+}
+.nextbtn , .prevbtn {
+    padding: 10px;
+    border: solid 0.1 black;
+    box-shadow: 0 0 20px #645414;
+    border-radius: 12px;
+    width: 30%;
+}
+.nextbtn:hover , .prevbtn:hover {
+    background-color: #deb40e;
+} 
+.khatwa{
+    display: none ;
+}
+.marhala{
+    display: block;
+}
+.now{
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px black;
+}
+.foult{
+    border: solid 1px red;
+    background-color: rgb(214, 182, 182);
+    
+}
+.photo_pers{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    gap: 12px;
+    padding: 2px;
+    border-radius: 15px;
+    color: black;
+    border: dashed rgb(150, 146, 146) 2px;
+}
+
+.photo_pers img{
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.photo_pers input{
+    display: none;
+}
+.photo_pers label{
+    margin: 6px;
+    background-color: #a3a3a3;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+
+
+
+
+.cv__body{
+    background-color: white;
+    /* height: 1123px; */
+    width: 794px;
+    border: 0.1px solid black;
+    background: none ;
+    margin: auto;
+    padding: 20px;
+}
+.photoCv{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.photoCv i{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.cv__body .des {
+    padding: 20px;
+}
+.donee__personl{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 30px;
+
+}
+.donee__personl p{
+    padding: 2px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+}
+.enseignement  {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+.enseignement p , .exprswork p{
+    padding: 2px;
+}
+.exprswork{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+.cvbackg{
+    background-color: white;
+}
+.lighn-separ{
+    height: 0.2px;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+.cvbackgbtn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.photoCv img{
+    height: 100px;
+    width: 100px;
+}
